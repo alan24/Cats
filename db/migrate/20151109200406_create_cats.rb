@@ -4,6 +4,7 @@ class CreateCats < ActiveRecord::Migration
 
     	t.string :name
     	t.string :color
+    	t.string :type
     	t.integer :age
 
       	t.timestamps
